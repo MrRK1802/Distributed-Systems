@@ -10,13 +10,13 @@ In mr folder:
 ## Overview
 The below image has the complete flow of the application.
 
-![image](https://github.com/nisarg1499/MIT-6.824-Labs/blob/main/docs_solutions/lab1-Distributed_Map_Reduce/system-overview.jpg)
+![image](https://github.com/arhatk9/MIT-6.824_Labs/blob/main/docs_solutions/lab1-Distributed_Map_Reduce/system-overview.jpg)
 
 
 ## Details 
 
 ### rpc.go
-[Code Link](https://github.com/nisarg1499/MIT-6.824-Labs/blob/main/src/mr/rpc.go)
+[Code Link](https://github.com/arhatk9/MIT-6.824_Labs/blob/main/src/mr/rpc.go)
 
 This file includes all RPC definitions. In total 4 definitions were declared and used. 
 
@@ -49,7 +49,7 @@ type  ReportOnMapToMasterArgs  struct {
 
 
 ### master.go
-[Code Link](https://github.com/nisarg1499/MIT-6.824-Labs/blob/main/src/mr/master.go)
+[Code Link](https://github.com/arhatk9/MIT-6.824_Labs/blob/main/src/mr/master.go)
 
 This file includes implementation of all methods required by master. 
 
@@ -107,7 +107,7 @@ type  ReduceTask  struct {
 
 
 ### worker.go
-[Code Link](https://github.com/nisarg1499/MIT-6.824-Labs/blob/main/src/mr/worker.go)
+[Code Link](https://github.com/arhatk9/MIT-6.824_Labs/blob/main/src/mr/worker.go)
 
 This file includes the implementation of all methods required by worker. 
 
